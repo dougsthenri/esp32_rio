@@ -1,0 +1,76 @@
+# ESP-IDF Build Output Directories
+build/
+**/build/
+
+# ESP-IDF Configuration
+sdkconfig
+sdkconfig.old
+components/*/build/
+
+# Generated Files
+components/*/CMakeFiles/
+components/*/*.cmake.depends
+components/*/compile_commands.json
+components/*/cmake_install.cmake
+components/*/Makefile
+components/*/project_elf.cmake
+components/*/project_include.cmake
+components/*/project_libraries.cmake
+components/*/project_link.cmake
+components/*/project_targets.cmake
+components/*/esp-idf-lib.cmake
+
+*.bin
+*.elf
+*.map
+*.hex
+*.obj
+*.o
+*.srec
+
+# CMake Temporary Files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Python Virtual Environment (if used)
+venv/
+.venv/
+
+# Platform Specific - Eclipse CDT
+.cproject
+.project
+.settings/
+
+# Platform Specific - VS Code
+.vscode/
+
+# Platform Specific - Other IDEs
+*.emacs.*
+tags
+.ropeproject/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.swp
+._*
+,*
+\#*#
+*~
+*.bak
+.DS_Store
+
+# Ignore the managed components directory (for ESP-IDF >= 4.0)
+managed_components/
+
+# Ignore the partition table binary
+partitions.bin
+
+# Ignore the bootloader binary
+build/bootloader/bootloader.bin
+**/build/bootloader/bootloader.bin
+
+# Ignore the application binary
+build/*.bin
+**/build/*.bin

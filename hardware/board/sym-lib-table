@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "esp32_rio-symbols")(type "KiCad")(uri "${KIPRJMOD}/esp32_rio-symbols.kicad_sym")(options "")(descr ""))
+)

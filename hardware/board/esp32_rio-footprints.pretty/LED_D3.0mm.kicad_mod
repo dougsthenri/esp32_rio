@@ -1,0 +1,234 @@
+(footprint "LED_D3.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 3.0mm, 2 pins")
+	(tags "LED diameter 3.0mm 2 pins")
+	(property "Reference" "REF**"
+		(at 4.4 0 270)
+		(layer "F.SilkS")
+		(uuid "d7b146a7-41e9-44cb-9fe0-ff3b05a3eea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Green"
+		(at 1.27 2.96 0)
+		(layer "F.Fab")
+		(uuid "52f2aaf5-1974-4594-9344-f08abea55aa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f289f234-a7a1-49c2-a934-9674e79cdf78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Light emitting diode, filled shape"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56ac7229-f207-4ac4-a451-d7af0658beee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part#" "204-10SYGD/S530-E2-L"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41eb31d8-36cd-4915-ad51-3e1fe0891f2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.29 -1.236)
+		(end -0.29 -1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7eaf4d4d-edb0-4c18-8034-a33b67425182")
+	)
+	(fp_line
+		(start -0.29 1.08)
+		(end -0.29 1.236)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bafaa48e-6587-4527-bfe5-4588b67d693b")
+	)
+	(fp_arc
+		(start -0.29 -1.235516)
+		(mid 1.366487 -1.987659)
+		(end 2.942335 -1.078608)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "820cdd4e-d650-4a86-a2c0-0f59f90d4880")
+	)
+	(fp_arc
+		(start 0.229039 -1.08)
+		(mid 1.270117 -1.5)
+		(end 2.31113 -1.079837)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "368aae86-a7ae-40f9-b278-0917a21af147")
+	)
+	(fp_arc
+		(start 2.31113 1.079837)
+		(mid 1.270117 1.5)
+		(end 0.229039 1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc370f56-9b9f-4780-8964-8f47a705b363")
+	)
+	(fp_arc
+		(start 2.942335 1.078608)
+		(mid 1.366487 1.987659)
+		(end -0.29 1.235516)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1d33f30-6ac8-4224-8c84-12b60f1f56ad")
+	)
+	(fp_line
+		(start -1.15 -2.25)
+		(end -1.15 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee7d96e7-afaf-4890-bc1d-ea33b6afd1d1")
+	)
+	(fp_line
+		(start -1.15 2.25)
+		(end 3.7 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d1ddbca-634f-45bc-9493-fea49bd0486d")
+	)
+	(fp_line
+		(start 3.7 -2.25)
+		(end -1.15 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bab9dda0-453a-472d-957a-0e9c0fda62ae")
+	)
+	(fp_line
+		(start 3.7 2.25)
+		(end 3.7 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74abee4c-4297-406d-8390-f61795548e49")
+	)
+	(fp_line
+		(start -0.23 -1.16619)
+		(end -0.23 1.16619)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b9903f0-a33f-40c5-85b9-079798ac47cb")
+	)
+	(fp_arc
+		(start -0.23 -1.16619)
+		(mid 3.17 0.000452)
+		(end -0.230555 1.165476)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36401466-0c02-4cac-8b08-38a1cfe26c3c")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 2.77 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8787e11d-f020-428a-b947-0cea7e6371fb")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec557af7-d27f-413e-8779-dbe9493b4200")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20c647e7-1876-45e8-a2d8-27b60e06f6dd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/esp32_rio-3dmodels/LED_D3.0mm_H15.7mm_Green.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
