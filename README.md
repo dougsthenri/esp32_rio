@@ -2,6 +2,8 @@
 
 A low-cost industrial remote input/output device based on the ESP32-S3 SoC from Espressif.
 
+![ESP32 RIO installation](esp32_rio-installation.jpg "ESP32 RIO installed inside panel")
+
 ## Features
 
 * **WiFi Connectivity:** Connects to an existing WiFi network using configuration read from non-volatile storage. External antenna.
